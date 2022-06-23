@@ -69,7 +69,7 @@ I skrivende stund er det ikke noe spesifikasjon på hvor langt fra hjørnet skal
 Som standard har vi satt marginen til å være lik den blir generert via Forbrukertilsynet sitt eget hjelpe verktøy.  
 I det verktøyet er marginen 7.7% av merket's egen størrelse.
 
-Du kan lett endre marginen, ved å endre [linje 46](Retusj%20Merke.js#L46) til en annen prosentfaktor. Marginen blir lik for top, høyre, bunn, og venstre side.
+Du kan lett endre marginen, ved å endre [linje 45](Retusj%20Merke.js#L45) til en annen prosentfaktor. Marginen blir lik for top, høyre, bunn, og venstre side.
 ```js
 var labelPlacement = {
     // ...
