@@ -67,7 +67,7 @@ function adjustLabel() {
     bounds = getBounds(active);
 
     // Move the label to a corner
-    const delta = getPosition(bounds, labelPlacement, {width: doc.width, height: doc.height});
+    var delta = getPosition(bounds, labelPlacement, {width: doc.width, height: doc.height});
     // alert(delta.x+", "+delta.y);
     active.translate(delta.x, delta.y);
 }
